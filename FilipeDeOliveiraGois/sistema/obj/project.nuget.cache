@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5d1MgT3U1YOJXKIXi86/nYSktu8jEAAN6rDCgJ7IWriVSzulYaQ/NJeclC+wXxA0qQwy1g63rDEk9ArBaK53QA==",
+  "dgSpecHash": "6hsjjfoebjUAk+N5s7jO/IAvrjjBXVMNCq13/R6/uSICHp8ZTePXyC/3qEIEZ7scSbtT//gvC7r79fsu/cF9/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\46633783825\\Desktop\\GitHub\\FilipeDeOliveiraGois\\sistema\\sistema.csproj",
+  "projectFilePath": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\sistema.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\46633783825\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\46633783825\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

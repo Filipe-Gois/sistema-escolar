@@ -20,6 +20,7 @@ namespace sistema.Controllers
             return View();
         }
 
+        [HttpPost]
         public IActionResult Logar(string email, string senha)
         {
             try
@@ -46,6 +47,14 @@ namespace sistema.Controllers
 
                 throw;
             }
+        }
+
+        [HttpPost]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Clear();
+
+            return RedirectToAction("Index", "Login");
         }
     }
 }

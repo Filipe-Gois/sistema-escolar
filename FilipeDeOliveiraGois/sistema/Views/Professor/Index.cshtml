@@ -1,0 +1,68 @@
+﻿<h3>@ViewBag.NomeProfessor</h3>
+
+
+
+<div style="display:flex">
+    <form asp-controller="Login" asp-action="Logout">
+        <button type="submit">
+            Sair
+        </button>
+    </form>
+</div>
+
+
+
+<form asp-controller="Professor" asp-action="CadastrarTurma">
+
+
+    <input type="text" name="nomeTurma" placeholder="nome" required />
+
+    <button type="submit">
+        Cadastrar Turma
+    </button>
+</form>
+
+<table>
+    <thead>
+
+        <tr>
+            <th>Número</th>
+            <th>Nome</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        @foreach (var turma in Model)
+        {
+            <tr>
+                <td>@turma.TurmaId</td>
+                <td>@turma.Nome</td>
+                <td>
+
+                    <div style="display:flex">
+
+                        <form asp-controller="Professor" asp-action="ExcluirTurma">
+                            <input name="turmaId" value="@turma.TurmaId" type="hidden" />
+                            <button type="submit">Excluir</button>
+                        </form>
+                    </div>
+                </td>
+
+                <td>
+                    <div style="display:flex">
+
+                        <form asp-controller="Atividade" asp-action="VisualizarTurma">
+                            <input name="turmaId" value="@turma.TurmaId" type="hidden" />
+                            <button type="submit">Visualizar</button>
+                        </form>
+                    </div>
+                </td>
+
+            </tr>
+
+        }
+    </tbody>
+
+</table>
