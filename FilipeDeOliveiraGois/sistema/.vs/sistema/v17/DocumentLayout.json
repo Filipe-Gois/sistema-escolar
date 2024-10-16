@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\views\\professor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:views\\professor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\views\\atividade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:views\\atividade\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:controllers\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:controllers\\atividadecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|c:\\users\\46633783825\\desktop\\github\\sistema-escolar\\filipedeoliveiragois\\sistema\\contexts\\sistemacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B8729922-702E-4841-9F35-58BC5E59EA49}|sistema.csproj|solutionrelative:contexts\\sistemacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,93 +50,107 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:21:34.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T19:09:36.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfessorController.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\ProfessorController.cs",
+              "RelativeToolTip": "Controllers\\ProfessorController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAQwDwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T19:09:20.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Login\\Index.cshtml",
               "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T18:40:49.571Z",
+              "WhenOpened": "2024-10-16T18:59:34.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T18:07:35.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Professor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Professor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Professor\\Index.cshtml",
+              "RelativeToolTip": "Views\\Professor\\Index.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAHsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:35:37.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Professor\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Professor\\Index.cshtml",
-              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Professor\\Index.cshtml",
-              "RelativeToolTip": "Views\\Professor\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADMAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Atividade\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Atividade\\Index.cshtml",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Atividade\\Index.cshtml",
+              "RelativeToolTip": "Views\\Atividade\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T18:38:08.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProfessorController.cs",
-              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\ProfessorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfessorController.cs",
-              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\ProfessorController.cs",
-              "RelativeToolTip": "Controllers\\ProfessorController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwEkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T18:29:24.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwDMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T19:50:36.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-11T19:48:37.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T19:42:45.26Z",
+              "WhenOpened": "2024-10-16T17:34:51.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "SistemaContext.cs",
-              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Contexts\\SistemaContext.cs",
-              "RelativeDocumentMoniker": "Contexts\\SistemaContext.cs",
-              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Contexts\\SistemaContext.cs",
-              "RelativeToolTip": "Contexts\\SistemaContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Title": "AtividadeController.cs",
+              "DocumentMoniker": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\AtividadeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AtividadeController.cs",
+              "ToolTip": "C:\\Users\\46633783825\\Desktop\\GitHub\\sistema-escolar\\FilipeDeOliveiraGois\\sistema\\Controllers\\AtividadeController.cs",
+              "RelativeToolTip": "Controllers\\AtividadeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAQwBYAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T19:29:58.882Z"
+              "WhenOpened": "2024-10-16T17:30:52.783Z",
+              "EditorCaption": ""
             }
           ]
         }

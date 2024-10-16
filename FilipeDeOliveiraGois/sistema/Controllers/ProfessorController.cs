@@ -25,11 +25,11 @@ namespace sistema.Controllers
                 return RedirectToAction("Index", "Login");
             }
 
-            var professor = _context.Professors.Find(professorId);
+            Professor professor = _context.Professors.Find(professorId)!;
 
             var turmas = _context.Turmas.Where(x => x.ProfessorId == professorId).ToList();
 
-            ViewBag.NomeProfessor = professor!.Nome;
+            ViewBag.NomeProfessor = professor.Nome;
 
             return View(turmas);
         }
