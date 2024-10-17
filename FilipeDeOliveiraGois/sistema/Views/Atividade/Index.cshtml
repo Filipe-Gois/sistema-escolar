@@ -7,26 +7,31 @@
     }
     else
     {
+        <div class="w-100 h-auto d-flex justify-content-end mt-5">
 
-        <form asp-controller="Atividade" asp-action="CadastrarAtividade" method="post">
-
-            <input name="descricao" type="text" required />
-            <input name="turmaId" value="@ViewBag.TurmaId" type="hidden" />
-            <input name="Descricao" placeholder="Nome" type="hidden" />
-            <button type="submit">
+            <button class="btn btn-light border border-primary text-primary" data-bs-toggle="modal" data-bs-target="#cadastrarAtividade" type="submit">
                 Cadastrar Atividade
             </button>
-        </form>
+        </div>
+
+        // <form asp-controller="Atividade" asp-action="CadastrarAtividade" method="post">
+
+        //     <input name="descricao" type="text" required />
+        //     <input name="turmaId" value="@ViewBag.TurmaId" type="hidden" />
+        //     <input name="Descricao" placeholder="Nome" type="hidden" />
+        //     <button type="submit">
+        //         Cadastrar Atividade
+        //     </button>
+        // </form>
 
         <h4>@ViewBag.Nome</h4>
 
-
-        <table>
+        <table class="table">
             <thead>
 
                 <tr>
-                    <th>Número</th>
-                    <th>Nome da atividade</th>
+                    <th scope="col">Número</th>
+                    <th scope="col">Nome da atividade</th>
                 </tr>
             </thead>
 

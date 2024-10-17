@@ -42,23 +42,34 @@ namespace sistema.Controllers
             {
                 Nome = nomeTurma,
                 ProfessorId = professorId
-
             };
 
             _context.Turmas.Add(turma);
             _context.SaveChanges();
             return RedirectToAction("Index");
+        }
 
+        public IActionResult AbrirModal(int turmaId)
+        {
+            ViewBag.TurmaId = turmaId;
+
+            return View();
         }
 
         [HttpPost]
         public IActionResult ExcluirTurma(int turmaId)
         {
+
             Turma turma = _context.Turmas.Include(x => x.Atividades).FirstOrDefault(x => x.TurmaId == turmaId)!;
 
+            if (turma == null)
+            {
+                TempData["Mensagem"] = "Turma não encontrada!";
 
+                return RedirectToAction("Index");
+            }
 
-            if (turma.Atividades.Any())
+            if (turma.Atividades.Count > 0)
             {
                 TempData["Mensagem"] = "Você não pode excluir uma turma que possui atividades!";
 

@@ -34,9 +34,11 @@
                         <td>
 
                             <div style="display:flex">
-
-                                <button class="btn btn-light border border-primary text-primary" data-bs-toggle="modal2" data-bs-target="#excluirTurma" type="submit">
-                                    Cadastrar Turma
+                                @{
+                                    var name = "deletarTurma" + turma.TurmaId;
+                                }
+                                <button type="submit" class="text-danger bg-transparent border-0 btn-link bg-white" data-bs-toggle="modal" data-bs-target="	#@name">
+                                    Excluir
                                 </button>
                             </div>
                         </td>
@@ -53,6 +55,25 @@
 
                     </tr>
 
+                    @* Modal Deletar *@
+                    <div class="modal" tabindex="-1" id="@name">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Deseja excluir turma ?</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <form asp-controller="Professor" asp-action="ExcluirTurma">
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                        <input type="hidden" name="turmaId" value="@turma.TurmaId" />
+                                        <button type="submit" class="btn btn-primary">Confirmar</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
                 }
             </tbody>
 
@@ -63,54 +84,24 @@
             <p style="color:red">@TempData["Mensagem"]</p>
         }
 
-        <div class="modal" tabindex="-1" role="dialog" id="cadastrarTurma">
+        <div class="modal" tabindex="-1" role="dialog" id="cadastrarAtividade">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h2 class="modal-title">Cadastrar Turma</h2>
+                        <h2 class="modal-title">Cadastrar Atividade</h2>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form asp-controller="Professor" asp-action="CadastrarTurma">
+                    <form asp-controller="Atividade" asp-action="CadastrarAtividade">
                         <div class="modal-body">
 
-                            <label class="form-label">Nome da turma</label>
-                            <input type="text" name="nomeTurma" class="form-control" placeholder="nome" required />
-
-                            <button type="submit">
-                                Cadastrar Turma
-                            </button>
+                            <label class="form-label">Nome da Atividade</label>
+                            <input type="text" name="nomeAtividade" class="form-control" placeholder="nome" required />
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-primary">Confirmar</button>
+                            <button type="submit" class="btn btn-primary">Confirmar</button>
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="modal2" tabindex="-1" role="dialog" id="excluirTurma">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title">Cadastrar Turma</h2>
-                        <button type="button" class="close" data-dismiss="modal2" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <form asp-controller="Professor" asp-action="ExcluirTurma">
-                        <div class="modal-body">
-
-
-
-                            <button type="submit">
-                                Cadastrar Turma
-                            </button>
-                        </div>
-                        <div class="modal-footer">
                         </div>
 
                     </form>
@@ -120,4 +111,3 @@
 
     }
 }
-
